@@ -311,6 +311,8 @@ Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 
 
 Jak można zauważyć, stałe koszty personelu (R&D) zdecydowanie przewyższają koszty produkcji i dodatkowe. Przy sprzedaży 100 oraz 500 sztuk rocznie, nie jest możliwe osiągnięcie zysku. Przy sprzedaży 1000 sztuk rocznie, możliwe jest osiągnięcie niewielkiego zysku przy cenie sprzedaży 1499 zł. Przy sprzedaży 5000 sztuk rocznie, możliwe jest osiągnięcie sporego zysku już przy cenie sprzedaży 999 zł, która jest konkurencyjna w stosunku do alternatywnych rozwiązań. 
 
+#image("img/costs-plot.png")
+
 = Harmonogram wprowadzenia produktu na rynek
 
 #grid(
