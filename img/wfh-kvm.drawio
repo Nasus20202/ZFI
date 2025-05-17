@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
+  <diagram name="Page-1" id="-OjgLEtUoCYl-kFv9vaK">
+    <mxGraphModel dx="725" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.azure.laptop" parent="1" vertex="1">
+          <mxGeometry x="190.00000000000003" y="390" width="133.34" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="230.00000000000003" y="50" width="155.56" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-4" value="WFH KVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-5" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.desktop_pc;network2IconXOffset=-0.0034;network2IconYOffset=0.00035;network2IconW=0.453;network2IconH=0.9995;" parent="1" vertex="1">
+          <mxGeometry x="500" y="370" width="72.52" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="50" width="155.56" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-7" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.keyboard" parent="1" vertex="1">
+          <mxGeometry x="550" y="222.5" width="158.33" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="RVZC-ofbu4COuB1lyOAc-1" target="RVZC-ofbu4COuB1lyOAc-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="240" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.083;exitY=0.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="RVZC-ofbu4COuB1lyOAc-5" target="RVZC-ofbu4COuB1lyOAc-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="RVZC-ofbu4COuB1lyOAc-7" target="RVZC-ofbu4COuB1lyOAc-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.553;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="RVZC-ofbu4COuB1lyOAc-4" target="RVZC-ofbu4COuB1lyOAc-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RVZC-ofbu4COuB1lyOAc-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.354;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="RVZC-ofbu4COuB1lyOAc-4" target="RVZC-ofbu4COuB1lyOAc-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cH-brBtNipcaxyRWTsUS-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/outlet-128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cH-brBtNipcaxyRWTsUS-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" edge="1" parent="1" source="cH-brBtNipcaxyRWTsUS-1" target="RVZC-ofbu4COuB1lyOAc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="290" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
