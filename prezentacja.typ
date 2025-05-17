@@ -270,8 +270,8 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
   - 1 złącze Thunderbolt 4,
   - 4 złącza USB A 3.2,
   - 2 złącza USB C 4,
-  - 1 złącze HDMI 2.1,
-  - 2 złącza DisplayPort 2.1,
+  - 1 złącze HDMI 2.1 IN, 1 OUT,
+  - 2 złącza DisplayPort 2.1 IN, 2 OUT,
   - złącze RJ45,
   - 2 złącza audio jack 3.5mm,
   - zasilanie 180W Power Delivery

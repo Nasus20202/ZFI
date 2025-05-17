@@ -230,7 +230,7 @@ Grupę docelową należy ograniczyć dodatkowo do osób, posiadających, poza s�
 
 Produkcja w Azji z kontrolą jakości i testami funkcjonalnymi. 
 
-Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 4 złącza USB A 3.2, 2 złącza USB 4, 1 złącze HDMI 2.1, 2 złącze DisplayPort 2.1, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie Power Delivery 180W, aluminiową obudowę CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem. Z tego powodu koszt produkcji nie zmienia się znacząco w zależności od wersji.
+Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 4 złącza USB A 3.2, 2 złącza USB 4, 1 złącze HDMI 2.1 IN & OUT, 2 złącze DisplayPort 2.1 IN & OUT, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie Power Delivery 180W, aluminiową obudowę CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem. Z tego powodu koszt produkcji nie zmienia się znacząco w zależności od wersji.
 
 
 == Szacunkowy koszt jednostkowy wg skali produkcji 
