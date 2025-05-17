@@ -216,7 +216,7 @@ Grupę docelową należy ograniczyć dodatkowo do osób, posiadających, poza s�
           #text(size: 15pt)[*Dystrybucja*]
 
           - Sprzedaż internetowa jako główny kanał dystrybucji.
-          - Własny sklep internetowy oraz współpraca z platformami e-commerce, takimi jak Allegro, Amazon, eBay.
+          - Własny sklep internetowy oraz współpraca z platformami e-commerce, takimi jak Allegro, Amazon.
           - Docelowo współpraca z detalistami i dystrybutorami IT.
           - Możliwość sprzedaży bezpośredniej do klientów korporacyjnych.
         ]
@@ -230,7 +230,7 @@ Grupę docelową należy ograniczyć dodatkowo do osób, posiadających, poza s�
 
 Produkcja w Azji z kontrolą jakości i testami funkcjonalnymi. 
 
-Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 złącze HDMI 2.1, 1 złącze DisplayPort 2.1, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie PD 100W, aluminiowa obudowa CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem. Z tego powodu koszt produkcji nie zmienia się znacząco w zależności od wersji.
+Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 4 złącza USB A 3.2, 2 złącza USB 4, 1 złącze HDMI 2.1, 2 złącze DisplayPort 2.1, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie Power Delivery 180W, aluminiową obudowę CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem. Z tego powodu koszt produkcji nie zmienia się znacząco w zależności od wersji.
 
 
 == Szacunkowy koszt jednostkowy wg skali produkcji 
@@ -315,15 +315,17 @@ Jak można zauważyć, stałe koszty personelu (R&D) zdecydowanie przewyższają
 
 = Harmonogram wprowadzenia produktu na rynek
 
-#grid(
-  columns: 13,
-  gutter: 0.5cm,
-  [Etap / Miesiąc], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
-  [Projektowanie techniczne (R&D)], grid.cell(colspan: 4, fill: green)[] , [], [], [], [], [], [], [], [],
-  [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [], [], [], [],
-  [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: green)[], [], [], [], [], [],
-  [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [],
-  [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: green)[], [], [], [],
-  [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
-  [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
-)
+#align(center)[
+  #grid(
+    columns: 13,
+    gutter: 0.5cm,
+    [Etap / Miesiąc], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
+    [Projektowanie techniczne (R&D)], grid.cell(colspan: 4, fill: green)[] , [], [], [], [], [], [], [], [],
+    [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [], [], [], [],
+    [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: green)[], [], [], [], [], [],
+    [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [],
+    [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: green)[], [], [], [],
+    [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+    [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+  )
+]
