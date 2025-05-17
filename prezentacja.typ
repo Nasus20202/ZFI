@@ -349,21 +349,21 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
     inset: 8pt,
     align: horizon,
     table.header(
-      [Ilość rocznie wyprodukowanych sztuk], [*100 szt.*], [*500 szt.*], [*1000 szt.*], [*5000 szt.*],
+      [], [*100 szt.*], [*500 szt.*], [*1000 szt.*], [*5000 szt.*],
     ),
     [*Koszt produkcji jednostkowej*], [800 zł], [690 zł], [602 zł], [495 zł],
     [*Koszty dodatkowe*], [200 zł], [125 zł], [92 zł], [60 zł],
     [*Koszty personelu na jednostkę*], [6 769 zł], [1 354 zł], [677 zł], [135 zł],
-    [*Łączny koszt całkowity*], [*7 769 zł*], [*2 169 zł*], [*1 371 zł*], [*690 zł*],
-    [*Zysk brutto przy cenie sprzedaży 999 zł*], [-6 770 zł], [-1 170 zł], [-372 zł], [*349 zł*],
-    [*Zysk brutto przy cenie sprzedaży 1499 zł*], [-6 270 zł], [-670 zł], [*128 zł*], [*809 zł*],
-    [*Zysk brutto przy cenie sprzedaży 1999 zł*], [-5 770 zł], [-170 zł], [*628 zł*], [*1 309 zł*],
+    [*Łączny koszt całkowity*], [*7 769 zł*], [*2 169 zł*], [*1 271 zł*], [*690 zł*],
+    [*Zysk brutto przy cenie sprzedaży 999 zł*], [-6 770 zł], [-1 170 zł], [-272 zł], [*309 zł*],
+    [*Zysk brutto przy cenie sprzedaży 1499 zł*], [-6 270 zł], [-670 zł], [*228 zł*], [*809 zł*],
+    [*Zysk brutto przy cenie sprzedaży 1999 zł*], [-5 770 zł], [-170 zł], [*728 zł*], [*1 309 zł*],
   )
 
   #pagebreak()
 
-  - Przy produkcji *5000 sztuk rocznie, znaczący zysk* (349 zł) można osiągnąć już przy cenia sprzedaży 999 zł.
-  - Przy produkcji 1000 sztuk rocznie, zysk (128 zł) można osiągnąć przy cenie sprzedaży 1499 zł. Nie jest to jednak zysk znaczący.
+  - Przy produkcji *5000 sztuk rocznie, sensowny zysk* (309 zł) można osiągnąć już przy cenia sprzedaży 999 zł.
+  - Przy produkcji 1000 sztuk rocznie, zysk (228 zł) można osiągnąć przy cenie sprzedaży 1499 zł.
   - Przy mniejszej produkcji, inwestycja w produkcję nie zwróci się. 
 
   Największą część kosztów stanowią *stałe koszty R&D*. Koszty produkcji jednostkowej są stosunkowo niskie, ponieważ urządzenie nie wymaga skomplikowanego procesu produkcji.

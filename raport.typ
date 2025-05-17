@@ -303,10 +303,10 @@ Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 4 złącza USB A 3.2, 
   [*Koszt produkcji jednostkowej*], [800 zł], [690 zł], [602 zł], [495 zł],
   [*Koszty dodatkowe*], [200 zł], [125 zł], [92 zł], [60 zł],
   [*Koszty personelu na jednostkę*], [6 769 zł], [1 354 zł], [677 zł], [135 zł],
-  [*Łączny koszt całkowity*], [*7 769 zł*], [*2 169 zł*], [*1 371 zł*], [*690 zł*],
-  [*Zysk brutto przy cenie sprzedaży 999 zł*], [-6 770 zł], [-1 170 zł], [-372 zł], [*349 zł*],
-  [*Zysk brutto przy cenie sprzedaży 1499 zł*], [-6 270 zł], [-670 zł], [*128 zł*], [*809 zł*],
-  [*Zysk brutto przy cenie sprzedaży 1999 zł*], [-5 770 zł], [-170 zł], [*628 zł*], [*1 309 zł*],
+  [*Łączny koszt całkowity*], [*7 769 zł*], [*2 169 zł*], [*1 271 zł*], [*690 zł*],
+  [*Zysk brutto przy cenie sprzedaży 999 zł*], [-6 770 zł], [-1 170 zł], [-272 zł], [*309 zł*],
+  [*Zysk brutto przy cenie sprzedaży 1499 zł*], [-6 270 zł], [-670 zł], [*228 zł*], [*809 zł*],
+  [*Zysk brutto przy cenie sprzedaży 1999 zł*], [-5 770 zł], [-170 zł], [*728 zł*], [*1 309 zł*],
 )
 
 Jak można zauważyć, stałe koszty personelu (R&D) zdecydowanie przewyższają koszty produkcji i dodatkowe. Przy sprzedaży 100 oraz 500 sztuk rocznie, nie jest możliwe osiągnięcie zysku. Przy sprzedaży 1000 sztuk rocznie, możliwe jest osiągnięcie niewielkiego zysku przy cenie sprzedaży 1499 zł. Przy sprzedaży 5000 sztuk rocznie, możliwe jest osiągnięcie sporego zysku już przy cenie sprzedaży 999 zł, która jest konkurencyjna w stosunku do alternatywnych rozwiązań. 

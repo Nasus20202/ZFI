@@ -11,17 +11,19 @@ unit_costs = []
 profit_per_unit = {}
 
 for sale_volume in sale_volumes:
-    production_cost = production_costs[sale_volume]
-    additonal_cost = additonal_costs[sale_volume]
+    production_cost = production_costs[sale_volume] * sale_volume
+    additonal_cost = additonal_costs[sale_volume] * sale_volume
     total_cost = production_cost + additonal_cost + personel_costs
 
     unit_cost = total_cost / sale_volume
     unit_costs.append(unit_cost)
+    print(f"Koszt jednostkowy przy {sale_volume} sztukach: {unit_cost:.2f} zł")
     for price in prices:
         profit = price - unit_cost
         if price not in profit_per_unit:
             profit_per_unit[price] = []
         profit_per_unit[price].append(profit)
+        print(f"Zysk przy {sale_volume} sztukach i cenie {price} zł: {profit:.2f} zł")
 
 plt.figure(figsize=(20, 6))
 plt.title("Koszt produkcji")
