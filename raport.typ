@@ -230,7 +230,7 @@ Grupę docelową należy ograniczyć dodatkowo do osób, posiadających, poza s�
 
 Produkcja w Azji z kontrolą jakości i testami funkcjonalnymi. 
 
-Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 złącze HDMI 2.1, 1 złącze DisplayPort 2.1, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie PD 100W, aluminiowa obudowa CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem.
+Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 złącze HDMI 2.1, 1 złącze DisplayPort 2.1, 1 złącze RJ45, 2 złącza audio (jack 3.5mm), zasilanie PD 100W, aluminiowa obudowa CNC, drewniane wykończenie. Droższe wersje różnią się jedynie liczbą portów i ich rodzajem. Z tego powodu koszt produkcji nie zmienia się znacząco w zależności od wersji.
 
 
 == Szacunkowy koszt jednostkowy wg skali produkcji 
@@ -269,7 +269,7 @@ Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 
   [*Dystrybucja (logistyka, magazyn)*], [80 zł], [50 zł], [40 zł], [30 zł],
   [*Serwis i wsparcie*], [20 zł], [15 zł], [12 zł], [10 zł],
 
-  [*Łączny koszt całkowity*], [*1000 zł*], [*815 zł*], [*694 zł*], [*555 zł*],
+  [*Łączny koszt całkowity*], [*200 zł*], [*125 zł*], [*92 zł*], [*60 zł*],
 )
 
 
@@ -291,4 +291,37 @@ Produkt w standardowej wersji - 1 złącze Thunderbolt 4, 2 złącza USB 3.2, 1 
   [*Suma kosztów personelu rocznie*], [], [*676 968 zł*], [],
 )
 
-= Wprowadzenie produktu na rynek
+== Podsumowanie kosztów
+
+#table(
+  columns: (1fr, auto, auto, auto, auto),
+  inset: 8pt,
+  align: horizon,
+  table.header(
+    [], [*100 szt.*], [*500 szt.*], [*1000 szt.*], [*5000 szt.*],
+  ),
+  [*Koszt produkcji jednostkowej*], [800 zł], [690 zł], [602 zł], [495 zł],
+  [*Koszty dodatkowe*], [200 zł], [125 zł], [92 zł], [60 zł],
+  [*Koszty personelu na jednostkę*], [6 769 zł], [1 354 zł], [677 zł], [135 zł],
+  [*Łączny koszt całkowity*], [*7 769 zł*], [*2 169 zł*], [*1 371 zł*], [*690 zł*],
+  [*Zysk brutto przy cenie sprzedaży 999 zł*], [-6 770 zł], [-1 170 zł], [-372 zł], [*349 zł*],
+  [*Zysk brutto przy cenie sprzedaży 1499 zł*], [-6 270 zł], [-670 zł], [*128 zł*], [*809 zł*],
+  [*Zysk brutto przy cenie sprzedaży 1999 zł*], [-5 770 zł], [-170 zł], [*628 zł*], [*1 309 zł*],
+)
+
+Jak można zauważyć, stałe koszty personelu (R&D) zdecydowanie przewyższają koszty produkcji i dodatkowe. Przy sprzedaży 100 oraz 500 sztuk rocznie, nie jest możliwe osiągnięcie zysku. Przy sprzedaży 1000 sztuk rocznie, możliwe jest osiągnięcie niewielkiego zysku przy cenie sprzedaży 1499 zł. Przy sprzedaży 5000 sztuk rocznie, możliwe jest osiągnięcie sporego zysku już przy cenie sprzedaży 999 zł, która jest konkurencyjna w stosunku do alternatywnych rozwiązań. 
+
+= Harmonogram wprowadzenia produktu na rynek
+
+#grid(
+  columns: 13,
+  gutter: 0.5cm,
+  [Etap / Miesiąc], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
+  [Projektowanie techniczne (R&D)], grid.cell(colspan: 4, fill: green)[] , [], [], [], [], [], [], [], [],
+  [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [], [], [], [],
+  [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: green)[], [], [], [], [], [],
+  [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [],
+  [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: green)[], [], [], [],
+  [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+  [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+)
