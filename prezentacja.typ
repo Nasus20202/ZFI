@@ -173,10 +173,10 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
         #pad[
           #text(size: 12pt)[*Mocne strony*]
 
-          - Wszechstronność
-          - Komfort użytkowania
+          - *Wszechstronność*
+          - *Komfort* użytkowania
           - Jedno urządzenie zamiast dwóch
-          - Wysoka jakość wykonania
+          - Wysoka *jakość* wykonania
           - Wysoka wydajność urządzenia
         ]
       ], 
@@ -185,8 +185,8 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
         #pad[
           #text(size: 12pt)[*Słabe strony*]
 
-          - Wysoki koszt produktu
-          - Złożoność technologiczna
+          - Wysoki *koszt* produktu
+          - *Złożoność* technologiczna
           - Ograniczona kompatybilność z starymi urządzeniami
           - Konkurencja ze strony tanich rozwiązań
         ]
@@ -198,9 +198,9 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
         #pad[
           #text(size: 12pt)[*Szanse*]
 
-          - Rosnący trend pracy zdalnej
+          - *Rosnący trend* pracy zdalnej
           - Rozwój rynku stacji dokujących oraz KVM
-          - Niewykorzystana nisza na rynku
+          - *Niewykorzystana nisza* na rynku
         ]
       ],
 
@@ -208,11 +208,11 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
         #pad[
           #text(size: 12pt)[*Zagrożenia*]
 
-          - Duża konkurencja na rynku
-          - Szybka zmiana standardów technologicznych
+          - Duża *konkurencja* na rynku
+          - Szybka *zmiana standardów* technologicznych
           - Niepewność co do przyszłości pracy zdalnej
-          - Presja cenowa ze strony rozwiązań budżetowych
-          - Mała grupa osób gotowych na zakup drogiego urządzenia
+          - Presja cenowa ze strony rozwiązań *budżetowych*
+          - *Mała grupa osób gotowych* na zakup drogiego urządzenia
         ]
       ]
     )
@@ -221,37 +221,57 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
 
 == Kompozycja marketingowa - Produkt
 #align(horizon)[
-  - Kilka wariantów urządzenia, różniących się liczbą portów i ich rodzajem. 
-  - Wsparcie dla najnowszych standardów, takich jak Thunderbolt 4, USB 4, HDMI 2.1, DisplayPort 2.1.
-  - Bezkompromisowe rozwiązanie dla wymagających użytkowników.
-  - Wysoka jakość wykonania i niezawodność.
-  - Wysoka wydajność urządzenia.
-  - Minimalistyczny design.
+  - *Kilka wariantów* urządzenia, różniących się liczbą portów i ich rodzajem. 
+  - Wsparcie dla najnowszych standardów, takich jak *Thunderbolt 4, USB 4, HDMI 2.1, DisplayPort 2.1*.
+  - *Bezkompromisowe* rozwiązanie dla wymagających użytkowników.
+  - Wysoka *jakość* wykonania i niezawodność.
+  - Wysoka *wydajność* urządzenia.
+  - *Minimalistyczny* design.
 ]
 
 == Kompozycja marketingowa - Cena
 #align(horizon)[
-  - Cena produktu w zależności od wariantu: 999 - 1999 PLN.
-  - Segment premium, droższy niż chińska konkurencja. 
-  - Rozwiązanie tańsze niż zakup dwóch osobnych urządzeń.
+  - Cena produktu w zależności od wariantu: *999 - 1999 PLN*.
+  - Segment *premium*, droższy niż chińska konkurencja. 
+  - Rozwiązanie *tańsze* niż zakup dwóch osobnych urządzeń.
 ]
 
 == Kompozycja marketingowa - Promocja
 #align(horizon)[
-  - Kampania marketingowa w mediach społecznościowych, np. Linkedin
-  - Współpraca z influencerami w branży IT.
-  - Kampania reklamowa w wyszukiwarkach internetowych.
+  - Kampania marketingowa w *mediach społecznościowych*, np. Linkedin
+  - Współpraca z *influencerami* w branży IT.
+  - Kampania *reklamowa* w wyszukiwarkach internetowych.
   - Program partnerski z dystrybutorami i resellerami IT umożliwi szerokie dotarcie do klientów korporacyjnych.
-  - Przygotowanie materiałów promocyjnych, takich jak filmy instruktażowe i prezentacje produktu.
+  - Przygotowanie *materiałów promocyjnych*, takich jak filmy instruktażowe i prezentacje produktu.
 ]
 
 == Kompozycja marketingowa - Dystrybucja
 #align(horizon)[
-  - Sprzedaż internetowa jako główny kanał dystrybucji.
-  - Własny sklep internetowy oraz współpraca z platformami e-commerce, takimi jak Allegro, Amazon.
+  - Sprzedaż *internetowa* jako główny kanał dystrybucji.
+  - Własny *sklep internetowy* oraz współpraca z *platformami e-commerce*, takimi jak Allegro, Amazon.
   - Docelowo współpraca z detalistami i dystrybutorami IT.
   - Możliwość sprzedaży bezpośredniej do klientów korporacyjnych.
 ]
+
+== Analiza ryzyka
+
+#align(horizon)[
+  #set text(size: 8.5pt)
+  #table(
+    columns: 6,
+    inset: 8pt,
+    align: horizon,
+    table.header(
+      [], [*Opis ryzyka*], [*Prawd.* \ #text(size: 8pt)[(1-5)]], [*Wpływ* \ #text(size: 8pt)[(1-5)]], [*Ocena* \ #text(size: 8pt)[Prawd. x wpływ]], [*Reakcje i działania*],
+    ),
+    [*1*], [Małe zainteresowanie produktem], [3], [5], [*15*], [Zwiększenie budżetu marketingowego, zmiana strategii promocji],
+    [*2*], [Opóźnienia w procesie produkcji], [3], [4], [*12*], [Wybór sprawdzonego producenta, kontrola jakości],
+    [*3*], [Braki komponentów], [2], [5], [*10*], [Znalezienie alternatywnych dostawców, zwiększenie zapasów],
+    [*4*], [Obniżona jakość produktu], [1], [5], [*5*], [Wprowadzenie dodatkowych testów jakości, kontrola produkcji],
+    [*5*], [Pojawienie się na rynku konkurencyjnych produktów], [4], [4], [*16*], [Monitorowanie rynku, dostosowanie strategii marketingowej i cenowej],
+  )
+]
+
 
 = Kosztorys
 
@@ -380,18 +400,20 @@ Według danych udostępnionych przez Główny Urząd Statystyczny, w trzecim kwa
 == Harmonogram
 
 #align(center + horizon)[
-  #grid(
-    columns: 13,
-    gutter: 0.5cm,
-    [Etap / Miesiąc], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
-    [Projektowanie techniczne (R&D)], grid.cell(colspan: 4, fill: green)[] , [], [], [], [], [], [], [], [],
-    [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [], [], [], [],
-    [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: green)[], [], [], [], [], [],
-    [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [],
-    [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: green)[], [], [], [],
-    [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
-    [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
-  )
+  #block(breakable: false)[
+    #grid(
+      columns: 13,
+      gutter: 0.5cm,
+      [Etap / Miesiąc], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12+],
+      [Projektowanie techniczne (R&D)], grid.cell(colspan: 4, fill: green)[] , [], [], [], [], [], [], [], [],
+      [Tworzenie prototypu], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [], [], [], [],
+      [Testowanie i optymalizacja], [], [], [], [], grid.cell(colspan: 3, fill: green)[], [], [], [], [], [],
+      [Przygotowanie do produkcji], [], [], [], [], [], [], grid.cell(colspan: 2, fill: green)[], [], [], [], [],
+      [Kampania przedsprzedażowa], [], [], [], [], grid.cell(colspan: 5, fill: green)[], [], [], [],
+      [Oficjalna premiera i sprzedaż online], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+      [Marketing i promocja], [], [], [], [], [], [], [], [], grid.cell(colspan: 4, fill: green)[],
+    )
+  ]
 ]
 
 == Podsumowanie
